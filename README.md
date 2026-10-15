@@ -12,7 +12,12 @@ Bu proje, Node.js kullanılarak Express olmadan geliştirilen basit bir HTTP sun
 - dayjs
 
 ## Kurulum
+Projeyi bilgisayarınıza indirmek için:
 
+```bash
+git clone https://github.com/afrarahimemadak/bmh231-odev1.git
+cd bmh231-odev1
+```
 Bağımlılıkları yüklemek için:
 
     npm install
