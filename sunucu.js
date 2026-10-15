@@ -32,7 +32,7 @@ const sunucu = http.createServer((req, res) => {
                 <title>Ana Sayfa</title>
             </head>
             <body>
-                <h1>BMH231 Web Programlama Ödevim</h1>
+                <h1>Web Programlama Projem</h1>
                 <p>Node.js ile hazirladiğim web sunucusuna hoş geldiniz.</p>
                 <a href="/hakkimda">Hakkimda sayfasina git</a>
             </body>
