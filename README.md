@@ -35,3 +35,20 @@ Sunucu adresi: http://localhost:3000
 ## Git Çalışması
 
 main, hakkimda ve baslik dalları kullanılmış, birleştirme çakışması oluşturulup çözülmüştür.
+## Test Komutları
+
+Ana sayfayı test etmek için:
+
+    curl.exe -i http://localhost:3000/
+
+Hakkımda sayfasını test etmek için:
+
+    curl.exe -i http://localhost:3000/hakkimda
+
+404 yanıtını test etmek için:
+
+    curl.exe -i http://localhost:3000/olmayan-sayfa
+
+405 yanıtını test etmek için:
+
+    curl.exe -i -X POST http://localhost:3000/api/ders
