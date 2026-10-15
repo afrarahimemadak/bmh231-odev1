@@ -3,6 +3,7 @@ const http = require("http");
 const dayjs = require("dayjs");
 
 const PORT = 3000;
+const SUNUCU_ADI = "BMH231-Node-Server";
 const AGEP_TARIHI = "2026-11-01";
 
 const sunucu = http.createServer((req, res) => {
@@ -98,5 +99,5 @@ const sunucu = http.createServer((req, res) => {
 });
 
 sunucu.listen(PORT, () => {
-    console.log(`Sunucu http://localhost:${PORT} adresinde çalişiyor.`);
+    console.log(`${SUNUCU_ADI} http://localhost:${PORT} adresinde çalişiyor.`);
 });
