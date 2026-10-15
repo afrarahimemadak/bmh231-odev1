@@ -57,3 +57,15 @@ Hakkımda sayfasını test etmek için:
 405 yanıtını test etmek için:
 
     curl.exe -i -X POST http://localhost:3000/api/ders
+    ## Kurulum ve Çalıştırma
+
+Projeyi bilgisayarınıza indirmek ve çalıştırmak için aşağıdaki komutları kullanın:
+
+```bash
+git clone https://github.com/afrarahimemadak/bmh231-odev1.git
+cd bmh231-odev1
+npm install
+npm start
+```
+
+Sunucu varsayılan olarak `http://localhost:3000` adresinde çalışır.

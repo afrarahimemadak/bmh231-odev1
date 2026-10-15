@@ -65,6 +65,8 @@ const sunucu = http.createServer((req, res) => {
         return;
     }
 
+
+
     if (yol === "/api/ders") {
         res.writeHead(200, {
             "Content-Type": "application/json; charset=utf-8"
@@ -72,7 +74,7 @@ const sunucu = http.createServer((req, res) => {
         res.end(JSON.stringify({
             kod: "BMH231",
             ad: "Web Programlama",
-            gun: "PDF'de belirtilmemiş"
+            gun: "Cuma"
         }));
         return;
     }
