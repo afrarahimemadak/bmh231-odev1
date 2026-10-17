@@ -54,7 +54,7 @@ const sunucu = http.createServer((req, res) => {
             </head>
             <body>
                 <h1>Hakkımda</h1>
-                <p>Bilgisayar mühendisliği öğrencisiyim.</p>
+                <p>Ben Afra Rahime Madak, Yozgat Bozok Üniversitesi Bilgisayar Mühendisliği öğrencisiyim.</p>
                 <p>Web programlama dersinde Node.js ile bir HTTP sunucusu geliştirdim.</p>
                 <p>Bu projede HTTP yöntemlerini ve durum kodlarını öğreniyorum.</p>
                 <a href="/">Ana sayfaya dön</a>
