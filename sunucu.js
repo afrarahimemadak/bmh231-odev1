@@ -1,4 +1,3 @@
-
 const http = require("http");
 const dayjs = require("dayjs");
 
@@ -33,9 +32,9 @@ const sunucu = http.createServer((req, res) => {
                 <title>Ana Sayfa</title>
             </head>
             <body>
-<h1>BMH231 Web Programlama Projem</h1>
-                <p>Node.js ile hazirladiğim web sunucusuna hoş geldiniz.</p>
-                <a href="/hakkimda">Hakkimda sayfasina git</a>
+                <h1>BMH231 Web Programlama Projem</h1>
+                <p>Node.js ile hazırladığım web sunucusuna hoş geldiniz.</p>
+                <a href="/hakkimda">Hakkımda sayfasına git</a>
             </body>
             </html>
         `);
@@ -51,21 +50,19 @@ const sunucu = http.createServer((req, res) => {
             <html lang="tr">
             <head>
                 <meta charset="UTF-8">
-                <title>Hakkimda</title>
+                <title>Hakkımda</title>
             </head>
             <body>
-                <h1>Hakkimda</h1>
+                <h1>Hakkımda</h1>
                 <p>Bilgisayar mühendisliği öğrencisiyim.</p>
                 <p>Web programlama dersinde Node.js ile bir HTTP sunucusu geliştirdim.</p>
-                <p>Bu projede HTTP yöntemlerini ve durum kodlarini öğreniyorum.</p>
+                <p>Bu projede HTTP yöntemlerini ve durum kodlarını öğreniyorum.</p>
                 <a href="/">Ana sayfaya dön</a>
             </body>
             </html>
         `);
         return;
     }
-
-
 
     if (yol === "/api/ders") {
         res.writeHead(200, {
@@ -97,9 +94,9 @@ const sunucu = http.createServer((req, res) => {
     res.writeHead(404, {
         "Content-Type": "text/plain; charset=utf-8"
     });
-    res.end("Sayfa bulunamadi");
+    res.end("Sayfa bulunamadı");
 });
 
 sunucu.listen(PORT, () => {
-    console.log(`${SUNUCU_ADI} http://localhost:${PORT} adresinde çalişiyor.`);
+    console.log(`${SUNUCU_ADI} http://localhost:${PORT} adresinde çalışıyor.`);
 });
